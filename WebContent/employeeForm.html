@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add Employee</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+.demo {
+	background-color: #ecf0f1;
+	padding: 10px 0px 19px 22px;
+}
+
+.cust {
+	background-color: #95a5a6;
+	color: #fff;
+	float: right;
+}
+
+.cust2 {
+	float: right;
+	margin-left: 16px;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarColor01" aria-controls="navbarColor01"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarColor01">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+
+	<br>
+	<br>
+	<div class="container">
+		<div class="card border-light mb-3" style="max-width: 20rem;">
+			<div class="card-header">Panel Title</div>
+			<div class="card-body">
+				<a class="btn btn-warning btn-lg" href="viewEmployee"
+					role="button">View Employee</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<form action="addEmployee" method="post">
+				<h1 class="demo">Add Employee</h1>
+				<div class="form-group">
+					Name:<br> <input type="text" class="form-control" name="name">
+				</div>
+				<div class="form-group">
+					Password:<br> <input type="password" class="form-control"
+						name="password">
+				</div>
+				<div class="form-group">
+					Email:<br> <input type="email" class="form-control"
+						name="email">
+				</div>
+				<div class="form-group">
+					Gender:<br>
+					<div class="form-check">
+						<input class="form-check-input position-static" type="radio"
+							name="gender" value="male"> Male<br> <input
+							class="form-check-input position-static" type="radio"
+							name="gender" value="female"> Female
+					</div>
+				</div>
+				<div class="form-group">
+					Country: <select class="form-control" name="country">
+						<option value="Cairo">Cairo</option>
+						<option value="Saudi Arabia">Saudi Arabia</option>
+						<option value="Qatar">Qatar</option>
+						<option value="Syria">Syria</option>
+						<option value="Iraq">Iraq</option>
+						<option value="Saudan">Saudan</option>
+					</select> <br>
+
+				</div>
+
+				<input type="submit" value="Add Employee"
+					class="btn btn-primary btn-lg pull-right cust2"> <input
+					type="reset" value="Cancel" class="btn btn-default btn-lg cust"></form>
+	</div>
+
+
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
