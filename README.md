@@ -15,9 +15,13 @@ Tools & Technologies
 -  JSP
 - Servlet
 - Maven
-- MySQL
-- Appache Tomcat
+- MySQL (5.0.37)
+- Appache Tomcat v9.0, port 8081
 - HTML
 - css
 - Bootstrap 3
 - Fonts
+=====================================
+DBConnection
+Database Configration Exist In package com.ahmed.util And className DBConnection
+Table Name: employeetable(id, name, password,email, gender, country
