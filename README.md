@@ -22,9 +22,6 @@ Tools & Technologies
 - Bootstrap 3
 - Fonts
 
-
-
 # DBConnection
-
 Database Configration Exist In package com.ahmed.util And className DBConnection
 Table Name: employeetable(id, name, password,email, gender, country).
