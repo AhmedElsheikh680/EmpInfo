@@ -16,7 +16,7 @@ Tools & Technologies
 - Servlet
 - Maven
 - MySQL (5.0.37)
-- Appache Tomcat v9.0, port 8081
+- Appache Tomcat v7.0, port 8086
 - HTML
 - css
 - Bootstrap 3
@@ -25,3 +25,5 @@ Tools & Technologies
 # DBConnection
 Database Configration Exist In package com.ahmed.util And className DBConnection
 Table Name: employeetable(id, name, password,email, gender, country).
+
+# URL: http://localhost:8086/StudentInfo
